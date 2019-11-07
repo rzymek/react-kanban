@@ -220,7 +220,7 @@ const board = {
       <button type='button' onClick={removeLane}>Remove Lane</button>
       <button type='button' onClick={() => renameLane('New title')}>Rename Lane</button>
       <button type='button' onClick={() => addCard({ id: 99, title: 'New Card' })}>Add Card</button>
-    </YourLaneHeader
+    </YourLaneHeader>
   )}
 >
   {board}
